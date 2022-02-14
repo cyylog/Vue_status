@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:tag" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d842c70e-4eac-45fe-9ed5-36750ad16e95" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wcbjETeSwefNvJ8Qw0XFhaq7LI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\apps\tools\WebStorm\WebStorm-2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\前端vue\vue-admin-template\src\views\ingress" />
+      <recent name="D:\前端vue\vue-admin-template\src\api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dev\Vue\vue-admin-template\src\views\resources" />
+      <recent name="E:\dev\Vue\vue-admin-template\src\api" />
+      <recent name="D:\前端vue\vue-admin-template\src\api" />
+      <recent name="D:\前端vue\vue-admin-template\src\utils" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d842c70e-4eac-45fe-9ed5-36750ad16e95" name="Default Changelist" comment="" />
+      <created>1628760956812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628760956812</updated>
+      <workItem from="1628760958190" duration="3350000" />
+      <workItem from="1629892644373" duration="640000" />
+      <workItem from="1630200834704" duration="8132000" />
+      <workItem from="1631806699933" duration="631000" />
+      <workItem from="1631887471727" duration="1834000" />
+      <workItem from="1631976746284" duration="1295000" />
+      <workItem from="1632100285312" duration="790000" />
+      <workItem from="1632145577219" duration="1964000" />
+      <workItem from="1632231224426" duration="2038000" />
+      <workItem from="1632574001027" duration="652000" />
+      <workItem from="1632756298253" duration="703000" />
+      <workItem from="1633616950813" duration="610000" />
+      <workItem from="1633703176808" duration="782000" />
+      <workItem from="1636466836995" duration="1225000" />
+      <workItem from="1638281566145" duration="2289000" />
+      <workItem from="1638372336261" duration="1288000" />
+      <workItem from="1638724106491" duration="515000" />
+      <workItem from="1638972556057" duration="1776000" />
+      <workItem from="1639407313212" duration="2395000" />
+      <workItem from="1640605031583" duration="759000" />
+      <workItem from="1640608321965" duration="793000" />
+      <workItem from="1640700468187" duration="2384000" />
+      <workItem from="1640704770362" duration="940000" />
+      <workItem from="1640710536409" duration="56000" />
+      <workItem from="1640778879321" duration="2356000" />
+      <workItem from="1641221238461" duration="2506000" />
+      <workItem from="1641307062562" duration="3222000" />
+      <workItem from="1642218038574" duration="608000" />
+      <workItem from="1642604215475" duration="2011000" />
+      <workItem from="1642684380048" duration="3204000" />
+      <workItem from="1642779094388" duration="946000" />
+      <workItem from="1642952292557" duration="648000" />
+      <workItem from="1644330697594" duration="901000" />
+      <workItem from="1644417734598" duration="4268000" />
+      <workItem from="1644422448515" duration="2396000" />
+      <workItem from="1644502630428" duration="3377000" />
+      <workItem from="1644847485681" duration="4851000" />
+      <workItem from="1644852867090" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644419909766">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1644419909766" />
+  </component>
+</project>
