@@ -69,10 +69,36 @@ export const constantRoutes = [
         meta: { title: 'deployments列表', icon: 'table' }
       },
       {
+        path: 'createdeploy',
+        name: 'Createdeploy',
+        component: () => import('@/views/deployments/deploy-create'),
+        meta: { title: '创建/编辑Deployment', icon: 'table' }
+      },
+      {
+        path: 'deploydetail',
+        name: 'Deploydetail',
+        component: () => import('@/views/deployments/deploy-detail'),
+        meta: { title: 'Deployment详细', icon: 'table' },
+        hidden: true
+      },
+      {
         path: 'pods',
         name: 'Pods',
         component: () => import('@/views/workloads/podslist'),
         meta: { title: 'Pods列表', icon: 'tree' }
+      },
+      {
+        path: 'podlogs',
+        name: 'Podlogs',
+        component: () => import('@/views/workloads/podlogs'),
+        meta: { title: '查看logs', icon: 'tree' }
+      },
+      {
+        path: 'podshell',
+        name: 'Podshell',
+        component: () => import('@/views/workloads/podshell'),
+        meta: { title: 'podshell(临时)', icon: 'tree' },
+        hidden:true
       },
       {
         path: 'serivces',
@@ -83,6 +109,109 @@ export const constantRoutes = [
     ]
   },
 
+  {
+    path: '/rbac',
+    component: Layout,
+    redirect: '/rbac/rolelist',
+    name: 'rbac',
+    meta: { title: 'RBAC可视化管理', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'rolelist',
+        name: 'Rolelist',
+        component: () => import('@/views/rbac/rolelist'),
+        meta: { title: '角色列表', icon: 'table' },
+      },
+      {
+        path: 'rolebindinglist',
+        name: 'Rolebindinglist',
+        component: () => import('@/views/rbac/rolebindinglist'),
+        meta: { title: '角色绑定', icon: 'tree' },
+      },
+
+      {
+        path: 'createrolebinding',
+        name: 'Createrolebinding',
+        component: () => import('@/views/rbac/create-rolebinding'),
+        meta: { title: '创建角色绑定', icon: 'tree' },
+        hidden: true
+      },
+      {
+        path: 'createclusterrolebinding',
+        name: 'Createclusterrolebinding',
+        component: () => import('@/views/rbac/create-clusterrolebinding'),
+        meta: { title: '创建集群角色绑定', icon: 'tree' },
+        hidden: true
+      },
+      {
+        path: 'clusterrolelist',
+        name: 'Clusterrolelist',
+        component: () => import('@/views/rbac/clusterrolelist'),
+        meta: { title: '集群角色列表', icon: 'tree' }
+      },
+      {
+        path: 'clusterrolebindinglist',
+        name: 'Clusterrolebindinglist',
+        component: () => import('@/views/rbac/clusterrolebindinglist'),
+        meta: { title: '集群角色绑定', icon: 'tree' },
+      },
+      {
+        path: 'createrole',
+        name: 'Createrole',
+        component: () => import('@/views/rbac/create-role'),
+        meta: { title: '创建/编辑(集群)角色', icon: 'tree' }
+      },
+      {
+        path: 'salist',
+        name: 'Salist',
+        component: () => import('@/views/rbac/salist'),
+        meta: { title: '服务账号列表', icon: 'tree' },
+      },
+      {
+        path: 'ualist',
+        name: 'Ualist',
+        component: () => import('@/views/rbac/ualist'),
+        meta: { title: '用户账号列表', icon: 'tree' },
+      },
+      {
+        path: 'configyaml',
+        name: 'Configyaml',
+        component: () => import('@/views/rbac/config-yaml'),
+        meta: { title: '查看config文件', icon: 'tree' },
+        hidden: true
+      },
+
+    ]
+  },
+  {
+    path: '/nodes',
+    component: Layout,
+    redirect: '/nodes/nodeshell',
+    name: 'nodes',
+    meta: { title: '节点管理', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'nodeshell',
+        name: 'Nodeshell',
+        component: () => import('@/views/nodes/nodeshell'),
+        meta: { title: 'nodeshell(临时)', icon: 'table' },
+        hidden: true
+      },
+      {
+        path: 'nodelist',
+        name: 'Nodelist',
+        component: () => import('@/views/nodes/nodelist'),
+        meta: { title: '节点列表', icon: 'tree' }
+      },
+      {
+        path: 'nodedetail',
+        name: 'Nodedetail',
+        component: () => import('@/views/nodes/nodedetail'),
+        meta: { title: '节点编辑', icon: 'tree' },
+        hidden: true
+      },
+    ]
+  },
   {
     path: '/ingress',
     component: Layout,
@@ -100,8 +229,15 @@ export const constantRoutes = [
         path: 'createingress',
         name: 'Createingress',
         component: () => import('@/views/ingress/ingress-create'),
-        meta: { title: '创建ingress', icon: 'tree' }
+        meta: { title: '创建/编辑ingress', icon: 'tree' }
       },
+      // {
+      //   path: 'ingressyaml',
+      //   name: 'Ingressyaml',
+      //   component: () => import('@/views/ingress/ingress-yaml'),
+      //   meta: { title: 'ingressyaml', icon: 'tree' },
+      //   hidden: true
+      // },
 
     ]
   },
@@ -144,70 +280,19 @@ export const constantRoutes = [
         component: () => import('@/views/resources/configmap-create'),
         meta: { title: '创建配置', icon: 'tree' }
       },
-
-
-
-    ]
-  },
-
-  {
-    path: '/nested',
-    component: Layout,
-    redirect: '/nested/menu1',
-    name: 'Nested',
-    meta: {
-      title: 'Nested',
-      icon: 'nested'
-    },
-    children: [
       {
-        path: 'menu1',
-        component: () => import('@/views/nested/menu1/index'), // Parent router-view
-        name: 'Menu1',
-        meta: { title: 'Menu1' },
-        children: [
-          {
-            path: 'menu1-1',
-            component: () => import('@/views/nested/menu1/menu1-1'),
-            name: 'Menu1-1',
-            meta: { title: 'Menu1-1' }
-          },
-          {
-            path: 'menu1-2',
-            component: () => import('@/views/nested/menu1/menu1-2'),
-            name: 'Menu1-2',
-            meta: { title: 'Menu1-2' },
-            children: [
-              {
-                path: 'menu1-2-1',
-                component: () => import('@/views/nested/menu1/menu1-2/menu1-2-1'),
-                name: 'Menu1-2-1',
-                meta: { title: 'Menu1-2-1' }
-              },
-              {
-                path: 'menu1-2-2',
-                component: () => import('@/views/nested/menu1/menu1-2/menu1-2-2'),
-                name: 'Menu1-2-2',
-                meta: { title: 'Menu1-2-2' }
-              }
-            ]
-          },
-          {
-            path: 'menu1-3',
-            component: () => import('@/views/nested/menu1/menu1-3'),
-            name: 'Menu1-3',
-            meta: { title: 'Menu1-3' }
-          }
-        ]
+        path: 'testres',
+        name: 'testres',
+        component: () => import('@/views/resources/test'),
+        meta: { title: '测试', icon: 'tree' }
       },
-      {
-        path: 'menu2',
-        component: () => import('@/views/nested/menu2/index'),
-        name: 'Menu2',
-        meta: { title: 'menu2' }
-      }
+
+
+
     ]
   },
+
+
 
 
 

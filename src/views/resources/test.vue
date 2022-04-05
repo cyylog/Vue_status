@@ -1,14 +1,5 @@
 <template>
   <div class="app-container">
-    <div style="padding: 20px">
-      选择命名空间:
-      <el-select placeholder="选择命名空间" @change="changeNs" v-model="namespace">
-        <el-option v-for="ns in nslist "
-                   :label="ns.Name"
-                   :value="ns.Name"/>
-      </el-select>
-
-    </div>
     <el-table
       v-loading="listLoading"
       :data="list"
@@ -29,8 +20,7 @@
       </el-table-column>
       <el-table-column label="名称" width="350">
         <template slot-scope="scope">
-          <p>
-            <router-link :to="{name:'Deploydetail',params:{ns:scope.row.NameSpace,name:scope.row.Name}}">{{ scope.row.Name }}</router-link></p>
+          <p>{{ scope.row.Name }}</p>
           <p class="red">{{ getMessage(scope.row) }}</p>
         </template>
       </el-table-column>
@@ -53,59 +43,30 @@
           {{ scope.row.CreateTime }}
         </template>
       </el-table-column>
-      <el-table-column label="操作" width="100" align="center">
-        <template slot-scope="scope">
-          <router-link :to="{name:'Createdeploy',params:{ns:scope.row.NameSpace,name:scope.row.Name}}"><i class="el-icon-edit" style="font-size: 18px"></i></router-link>
-          <i class="el-icon-delete " style="cursor:pointer;font-size: 18px;margin-left: 10px" @click="()=>delDeploy(scope.row.NameSpace,scope.row.Name )"></i>
-
-        </template>
-      </el-table-column>
     </el-table>
   </div>
 </template>
 
 <script>
-  import { getList,rmDeploy } from '@/api/deployments'
+  import { getList } from '@/api/deployments'
   import { NewClient } from "@/utils/ws";
-  import { getList  as getNsList } from '@/api/ns'
+
   export default {
     data() {
       return {
-        namespace:'default',
         list: null,
         listLoading: true,
-        wsClient:null,
-        nslist:[]
+        wsClient:null
       }
     },
     created() {
-      getNsList().then(rsp=>{
-        this.nslist=rsp.data
-        this.fetchData()
-      })
+      this.fetchData()
     },
     methods: {
-      delDeploy(ns,name){
-        this.$confirm('是否继续?', '提示', {
-          confirmButtonText: '确定',
-          cancelButtonText: '取消',
-          type: 'warning',
-          center: true
-        }).then(() => {
-          rmDeploy(ns,name)
-        })
-
-      },
-      changeNs(ns){
-        getList(this.namespace).then(response => {
-          this.list = response.data
-          this.listLoading = false
-        })
-      },
       fetchData() {
         this.listLoading = true
         // 通过rest api 获取
-        getList(this.namespace).then(response => {
+        getList("default").then(response => {
           this.list = response.data
           this.listLoading = false
         })
@@ -113,7 +74,7 @@
         this.wsClient.onmessage = (e)=>{
           if(e.data !== 'ping'){
             const object=JSON.parse(e.data)
-            if(object.type === 'deployments' && object.result.ns===this.namespace){
+            if(object.type === 'deployments'){
               this.list = object.result.data
               this.$forceUpdate()
             }

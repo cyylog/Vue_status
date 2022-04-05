@@ -15,25 +15,42 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:tag" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d842c70e-4eac-45fe-9ed5-36750ad16e95" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/configmaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/configmaps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/deployments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/deployments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/ingress.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ingress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/ns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/pods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/secrets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/secrets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/svc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/svc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/resources/configmap-create-kvs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resources/configmap-create-kvs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/resources/configmap-create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resources/configmap-create.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/resources/configmaplist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resources/configmaplist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/workloads/deplist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/workloads/deplist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/workloads/podslist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/workloads/podslist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/workloads/svclist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/workloads/svclist.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/ingress" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,19 +78,44 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="E:\apps\tools\WebStorm\WebStorm-2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dev\Vue\Vue_status\src\views\resources" />
       <recent name="D:\前端vue\vue-admin-template\src\views\ingress" />
       <recent name="D:\前端vue\vue-admin-template\src\api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dev\Vue\Vue_status\src\views\ingress" />
+      <recent name="E:\dev\Vue\Vue_status\src\views\workloads" />
+      <recent name="E:\dev\Vue\Vue_status\src\views\resources" />
+      <recent name="E:\dev\Vue\Vue_status\src\router" />
       <recent name="E:\dev\Vue\vue-admin-template\src\views\resources" />
-      <recent name="E:\dev\Vue\vue-admin-template\src\api" />
-      <recent name="D:\前端vue\vue-admin-template\src\api" />
-      <recent name="D:\前端vue\vue-admin-template\src\utils" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm" singleton="false">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" singleton="false" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -127,6 +169,36 @@
       <workItem from="1645026907138" duration="1059000" />
       <workItem from="1645115351303" duration="549000" />
       <workItem from="1645116048708" duration="497000" />
+      <workItem from="1645348921571" duration="1787000" />
+      <workItem from="1645510227610" duration="604000" />
+      <workItem from="1645797225740" duration="1664000" />
+      <workItem from="1645863898176" duration="1233000" />
+      <workItem from="1645974985269" duration="1219000" />
+      <workItem from="1646060376280" duration="611000" />
+      <workItem from="1646664286078" duration="4898000" />
+      <workItem from="1646673372568" duration="1554000" />
+      <workItem from="1646699912411" duration="3543000" />
+      <workItem from="1646726246033" duration="158000" />
+      <workItem from="1646726478442" duration="3834000" />
+      <workItem from="1646788566448" duration="10802000" />
+      <workItem from="1646930068571" duration="1261000" />
+      <workItem from="1646964243059" duration="603000" />
+      <workItem from="1647075915270" duration="632000" />
+      <workItem from="1647152800186" duration="2473000" />
+      <workItem from="1647269122091" duration="2106000" />
+      <workItem from="1647355703366" duration="625000" />
+      <workItem from="1647439395763" duration="596000" />
+      <workItem from="1647527342205" duration="1422000" />
+      <workItem from="1647782839782" duration="4811000" />
+      <workItem from="1647872219951" duration="1219000" />
+      <workItem from="1647952790028" duration="2621000" />
+      <workItem from="1648126182028" duration="4959000" />
+      <workItem from="1648298367288" duration="3147000" />
+      <workItem from="1648345466129" duration="1896000" />
+      <workItem from="1648569877516" duration="1041000" />
+      <workItem from="1648652574748" duration="2222000" />
+      <workItem from="1648736631614" duration="3733000" />
+      <workItem from="1648813843096" duration="3818000" />
     </task>
     <servers />
   </component>
@@ -149,9 +221,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644419909766">
+    <state x="630" y="341" key="#ESLint" timestamp="1645349031343">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1644419909766" />
+    <state x="630" y="341" key="#ESLint/0.0.1536.864@0.0.1536.864" timestamp="1645349031343" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646836977756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1646836977756" />
+    <state x="497" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647957805645">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="497" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1647957805645" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647957937606">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1647957937606" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1646840767390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646840767390" />
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1645349239483" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1646840767390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1646840767390" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1645349239483" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1646840767389">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1646840767389" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1645349239483" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1646840767390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1646840767390" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1645349239483" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1646842060914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646842060914" />
   </component>
 </project>

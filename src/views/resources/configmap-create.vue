@@ -5,7 +5,7 @@
         <span>基本配置</span>
         <el-form  :inline="true">
           <el-form-item  label="配置名称">
-            <el-input  v-model="Name"></el-input>
+            <el-input :disabled="IsUpdate" v-model="Name"></el-input>
           </el-form-item>
           <el-form-item label="命名空间">
             <el-select  v-model="NameSpace">
@@ -32,13 +32,21 @@
           NameSpace:"",
           nslist: [],
           currCom: "Kvs",
-
+          IsUpdate:false,
         }
     },
    created() {
      getNsList().then(rsp=>{
        this.nslist=rsp.data
      })
+
+   },
+   methods:{
+      childSet(ns,name){
+        this.NameSpace=ns
+        this.Name=name
+        this.IsUpdate=true
+      },
 
    },
    components:{

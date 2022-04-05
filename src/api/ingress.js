@@ -1,13 +1,32 @@
 import request from '@/utils/request'
-
-//获取所有 ingress列表
-export function getList(ns) {
+export function loadIngress(ns,name) {
   return request({
-    url: '/ingress?ns=' + ns,
+    url: '/ingress/'+ns+'/'+name,
     method: 'get',
   })
 }
-
+export function genAuthFile(data) {
+  return request({
+    url: '/ingressauth',
+    data,
+    method: 'post',
+  })
+}
+//获取所有 ingress列表
+export function getList(ns) {
+  return request({
+    url: '/ingress?ns=' + ns ,
+    method: 'get',
+  })
+}
+// 更新ingress ，就是加个query参数
+export function updateIngress(data) {
+  return request({
+    url: '/ingress?update=1',
+    method: 'post',
+    data
+  })
+}
 // 新增ingress
 export function postIngress(data) {
   return request({
@@ -16,11 +35,20 @@ export function postIngress(data) {
     data
   })
 }
-
-export function rmIngress(ns, name) {
+export function rmIngress(ns,name) {
   return request({
-    url: '/ingress?ns' + ns + '&name=' + name,
+    url: '/ingress?ns'+ns +'&name='+name,
     method: 'delete',
 
   })
 }
+export function getIngressForYaml(ns,name) {
+  return request({
+    url: '/ingressyaml?ns'+ns +'&name='+name,
+    method: 'get',
+  })
+}
+
+
+
+
