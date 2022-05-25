@@ -20,25 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d842c70e-4eac-45fe-9ed5-36750ad16e95" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/configmaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/configmaps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/deployments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/deployments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/ingress.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ingress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/ns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/pods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/secrets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/secrets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/svc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/svc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/resources/configmap-create-kvs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resources/configmap-create-kvs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/resources/configmap-create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resources/configmap-create.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/resources/configmaplist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resources/configmaplist.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/workloads/deplist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/workloads/deplist.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/workloads/podslist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/workloads/podslist.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/workloads/svclist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/workloads/svclist.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +181,8 @@
       <workItem from="1648652574748" duration="2222000" />
       <workItem from="1648736631614" duration="3733000" />
       <workItem from="1648813843096" duration="3818000" />
+      <workItem from="1649175234559" duration="343000" />
+      <workItem from="1653491595837" duration="540000" />
     </task>
     <servers />
   </component>
